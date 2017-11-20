@@ -9,7 +9,7 @@ import java.util.List;
 
 
 /**
- * @author CMJ 有效时间
+ * @author CMJ 有效时间，时态信息类
  */
 public class ValidTime implements Comparable<ValidTime> {
 
@@ -50,7 +50,6 @@ public class ValidTime implements Comparable<ValidTime> {
                     e2.printStackTrace();
                     e3.printStackTrace();
                 }
-
             }
         }
         return longTime;
